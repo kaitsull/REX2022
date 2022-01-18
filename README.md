@@ -1,6 +1,6 @@
 # REX2022
 ## Current Goal:  
-1. Download [astrocyte dataset]()
+1. Download [astrocyte dataset](https://drive.google.com/drive/folders/1BWDbcNg-jz6i7jKuQQWm1-YXYCeAQ0KI?usp=sharing)
 2. Import into R using command: `astro <- read.csv("Human_Male_ERC_CTRL_Astrocytes_.csv", row.names = 1)`  
 3. Try and run the [Seurat tutorial](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) on this dataset  
 **SUGGESTIONS:**  
