@@ -10,7 +10,8 @@
 - Investigate if the gene is reference in literature regarding:
    -  Astrocytes (or associated cell types like *Oligodendrocytes*, *Neurons*, *OPCs*, *pericytes*)
    -  Alzheimer's Disease  
-   -  AD-associated cellular function (like lipid metabolism)
+   -  AD-associated cellular function (like lipid metabolism)  
+- If stuck with FindMarkers, filtered cluster tables *easily opened in Excel* can be found [here](https://drive.google.com/drive/folders/18-FZkQkfDnvkcc2bxV8KHeALJNX9oGmg?usp=sharing). 
 
 ## By January 24th:  
 1. Download [astrocyte dataset](https://drive.google.com/drive/folders/1BWDbcNg-jz6i7jKuQQWm1-YXYCeAQ0KI?usp=sharing)
