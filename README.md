@@ -1,5 +1,18 @@
 # REX2022
-## Current Goal:  
+  
+## Current Goal (due Jan 31):
+1. Run `FindMarkers(astro, ident.1 = X)` to get marker genes  
+2. Using `tidyverse`, filter cells to be enriched with pct.2 < 30 %: `astro <- filter(astro, avg_log2FC>0 & pct.2<0.3)`  
+3. Investigate the transcriptomic profile.  
+
+### **SUGGESTIONS:**  
+- Google the *gene name* alone
+- Investigate if the gene is reference in literature regarding:
+   -  Astrocytes (or associated cell types like *Oligodendrocytes*, *Neurons*, *OPCs*, *pericytes*)
+   -  Alzheimer's Disease  
+   -  AD-associated cellular function (like lipid metabolism)
+
+## By January 24th:  
 1. Download [astrocyte dataset](https://drive.google.com/drive/folders/1BWDbcNg-jz6i7jKuQQWm1-YXYCeAQ0KI?usp=sharing)
 2. Import into R using command: `astro <- read.csv("Human_Male_ERC_CTRL_Astrocytes_.csv", row.names = 1)`  
 3. Try and run the [Seurat tutorial](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) on this dataset  
